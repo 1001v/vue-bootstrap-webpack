@@ -51,6 +51,7 @@ This would build your app using dev environment
 This would build your app using production environment
 ##### Features
 * minify css and js, uglify js
+* autoprefixer
 * babel transformation to es2015
 * babel-polyfills injection
 * css, vendor.js and main.js bundles
