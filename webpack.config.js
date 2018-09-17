@@ -45,7 +45,7 @@ module.exports = {
 				loader: 'babel-loader'
 			}
 		}, {
-			test: /(\.scss|\.sass)$/,
+			test: /(\.scss|\.sass|\.css)$/,
 			use: [
 				'vue-style-loader',
 				isProduction ? MiniCssExtractPlugin.loader : {
